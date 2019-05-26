@@ -21,7 +21,7 @@ export const Logo = styled.a.attrs({
 `
 export const Nav = styled.div`
     margin: 0 auto;
-    width: 1180px;
+    width: 960px;
     height: 100%;
     box-sizing: border-box;
     padding-right: 70px;
@@ -103,6 +103,7 @@ export const SearchInfo = styled.div`
     padding: 0 20px;
     box-shadow: 0 0 8px rgba(0, 0, 0, .2);
     border-radius: 3px;
+    background: #fff;
 `
 export const SearchInfoTitle = styled.div`
     margin: 10px 0 ;

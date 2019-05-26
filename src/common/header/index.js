@@ -117,18 +117,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     handleInputFocus(list) {
-      console.log(list.size);
-      (list.size === 0) &&
-      dispatch(actionCreators.getList());
+      (list.size === 0) && dispatch(actionCreators.getList());
       dispatch(actionCreators.searchFocus());
-      console.log(list.size);
-      
-      // console.log(list.size);
-      // if (list.size === 0) {
-      //   dispatch(actionCreators.getList());
-      //   dispatch(actionCreators.searchFocus());
-      //   console.log(list.size);
-      // }
     },
     handleInputBlur() {
       dispatch(actionCreators.searchBlur());

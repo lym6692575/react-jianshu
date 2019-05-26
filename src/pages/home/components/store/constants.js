@@ -1,0 +1,1 @@
+export const CHANGE_WRITER_PAGE= 'home/CHANGE_WRITER_PAGE';

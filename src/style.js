@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         line-height: 1;
     }
-    ol, ul {
+    ol, ul, li {
         list-style: none;
     }
     blockquote, q {
@@ -44,6 +44,9 @@ export const GlobalStyle = createGlobalStyle`
     table {
         border-collapse: collapse;
         border-spacing: 0;
+    }
+    a {
+        text-decoration: none;
     }
 `
 
