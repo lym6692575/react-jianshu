@@ -136,9 +136,9 @@ const defaultState = fromJS({
 
 export default (state = defaultState, action) => {
     switch(action.type){
-        case constants.CHANGE_WRITER_PAGE:
+        case constants.CHANGE_WRITER:
             console.log('1');
-            return ('page',action.page);
+            return state.set('page',2);
         default:
                 return state;
     }

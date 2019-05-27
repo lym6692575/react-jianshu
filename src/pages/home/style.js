@@ -103,18 +103,14 @@ export const WriterWapper =  styled.div`
 export const WriterHeader =  styled.div`
     overflow: hidden;
     margin-top:10px;
-    .intro {
-        float: left;
-        font-weight: 600;
-        color: #666;
-        font-size: 15px;
-    }
+    font-weight: 600;
+    color: #666;
+    font-size: 15px;
 `;
 
 export const WriteInfoSwitch = styled.span`
     float: right;
     color: #666;
-    font-weight: 600;
     font-size: 14px;
     .spin {
         display: block;
@@ -126,7 +122,7 @@ export const WriteInfoSwitch = styled.span`
 }
 `
 
-export const WriterList = styled.div`
+export const WriterList = styled.ul`
     margin-top: 10px;
 `
 export const WriteLi= styled.li`
@@ -160,7 +156,7 @@ export const WriteLi= styled.li`
     .liked {
         margin-top: 5px;
         font-size: 12px;
-        line-height: 20px;
+        line-height: 34px;
         color: #969696;
         font-weight: 400;
     }

@@ -1,6 +1,6 @@
 import * as constants from './constants';
 
 
-export const changeWriterpage = () => ({
-    type: constants.CHANGE_WRITER_PAGE,
+export const getChangeWriter = () => ({
+    type: constants.CHANGE_WRITER,
 });

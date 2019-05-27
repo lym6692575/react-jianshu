@@ -127,6 +127,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch(actionCreators.mouseEnter());
     },
     handleMouseLeave() {
+      console.log('1');
       dispatch(actionCreators.mouseLeave());
     },
     handleChangePage(page, totalPage, spin) {

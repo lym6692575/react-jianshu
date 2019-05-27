@@ -1,1 +1,1 @@
-export const CHANGE_WRITER_PAGE= 'home/CHANGE_WRITER_PAGE';
+export const CHANGE_WRITER= 'home/CHANGE_WRITER';

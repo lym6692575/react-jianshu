@@ -20,7 +20,6 @@ export default (state = defaultState, action) => {
                 list: action.data,
                 totalPage: action.totalPage
             })
-            // state.set('list',action.data).set('totalPage',action.totalPage);
         case constants.MOUSE_ENTER:
             return state.set('mouseIn',true);
         case constants.MOUSE_LEAVE:
